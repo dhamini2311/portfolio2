@@ -1,22 +1,14 @@
 <div class="main">
-    <p id="heading">My Projects</p>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>    
-</div>
-<hr id="hr4">
+    <div class="pagination">
+    <button (click)="prevPage()" [disabled]="currentPage === 1"><</button>
+    <span>{{ currentPage }} / {{ totalPages }}</span>
+    <button (click)="nextPage()" [disabled]="currentPage === totalPages">></button>
+  </div>
+  
+  <div class="content">
+    <!-- Display content for the current page -->
+    <ul>
+      <li *ngFor="let project of pagedProjects">{{ project }}</li>
+    </ul>
+  </div>
+  </div>
