@@ -25,7 +25,7 @@
     color:rgb(55, 225, 220);
 }
 #content{
-    font-size: 23px;
+    font-size: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-style: italic;
 }
@@ -102,3 +102,26 @@
     border-top: 2px solid rgb(26, 166, 253);
     border-bottom: 2px solid rgb(26, 166, 253);
 }
+#res a{
+    text-decoration: none;
+    color: aliceblue;
+    width: 30%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-decoration: none;
+    color: aliceblue;
+    border-radius: 10px;
+    border: 3px solid rgb(55, 225, 220);
+    background: #333;
+    margin-left: 3rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style:italic;
+    
+}
+/* #res{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+} */
