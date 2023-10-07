@@ -12,13 +12,23 @@
     margin-left: 43%;
     text-shadow: 5px 5px 10px rgb(30, 96, 171);
 }
+#pro1{
+  width: 10px;
+  height: 10px;
+}
+.image{
+  display: flex;
+}
 #pro1,img{
   width: 50%;
-  height: 60%;
+  height: 50%;
   margin-left: 10%;
-  margin-bottom: 10px;
 }
 #pro2,img{
   width: 50%;
-  height: 60%;
+  height: 50%;
+}
+#pro1,img:hover{
+  /* transition: transform(0.4);
+  transform: scale(1,1); */
 }
