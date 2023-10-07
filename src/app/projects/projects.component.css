@@ -16,9 +16,9 @@
   width: 50%;
   height: 60%;
   margin-left: 10%;
+  margin-bottom: 10px;
 }
 #project2,img{
   width: 50%;
   height: 60%;
-  display: flex;
 }
