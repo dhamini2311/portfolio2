@@ -3,44 +3,11 @@
     height: auto;
     width: auto;
 }
-#Certificates{
-    display: flex;
-    color: rgb(55, 225, 220);
-    font-size: 50px;
-    margin-left: 33rem;
+#head{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-style: italic;
+    color: rgb(55, 225, 220);
+    font-size: 60px;
+    margin-left: 40%;
     text-shadow: 5px 5px 10px rgb(30, 96, 171);
-}
-.division{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-}
-#c1,#c2,#c3{
-    margin-left: 15rem;
-    font-size: 20px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: rgb(55, 225, 220);
-}
-.cert1 img,.cert2 img,.cert3 img{
-    width: 15rem;
-    height: 11rem;
-    margin-left: 15rem;
-    padding-top: 1rem;
-}
-.cert4 img,.cert5 img{
-    width: 15rem;
-    height: 11rem;
-    margin-left: 10rem;
-    padding-top: 1rem;
-}
-#c4,#c5{
-    margin-left: 10rem;
-    font-size: 20px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: rgb(55, 225, 220);
-}
-#hr3{
-    border-top: 1px solid rgb(253, 26, 192);
-    border-bottom: 1px solid rgb(253, 26, 192);
 }
