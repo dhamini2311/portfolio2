@@ -12,25 +12,13 @@
     margin-left: 43%;
     text-shadow: 5px 5px 10px rgb(30, 96, 171);
 }
-/* .pagination {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 10px;
-  } */
-  
-  .content {
-    padding: 10px;
-  }
-  
-  ul {
-    list-style-type: none;
-    padding: 0;
-  }
-  
-  li {
-    margin-bottom: 5px;
-  }
-#hr4{
-    border-top: 1px solid rgb(253, 26, 192);
-    border-bottom: 1px solid rgb(253, 26, 192);
+#project1,img{
+  width: 50%;
+  height: 60%;
+  margin-left: 10%;
+}
+#project2,img{
+  width: 50%;
+  height: 60%;
+  display: flex;
 }
