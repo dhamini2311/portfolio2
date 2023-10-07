@@ -12,11 +12,11 @@
     margin-left: 40%;
     text-shadow: 5px 5px 10px rgb(30, 96, 171);
 }
-.pagination {
+/* .pagination {
     display: flex;
     justify-content: space-between;
     margin-bottom: 10px;
-  }
+  } */
   
   .content {
     padding: 10px;
@@ -30,7 +30,7 @@
   li {
     margin-bottom: 5px;
   }
-/* #hr4{
+#hr4{
     border-top: 1px solid rgb(253, 26, 192);
     border-bottom: 1px solid rgb(253, 26, 192);
-} */
+}
