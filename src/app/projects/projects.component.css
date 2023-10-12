@@ -22,8 +22,8 @@
     gap: 20%;
 }
 .card {
-  width: 300px;  
-  height: 200px; perspective: 1000px;}  
+  width: 350px;  
+  height: 250px; perspective: 1000px;}  
   .card-inner {
     border: 5px solid rgb(35, 230, 230);
     border-radius: 0.5rem;
@@ -34,17 +34,26 @@
   .card:hover .card-inner {
   transform: rotateY(180deg);
   }
-  .card-front, .card-back { 
+  .card-front, .card-back {
   position: absolute; width: 100%;
   /* background-color: blanchedalmond; */
   color: rgb(55, 225, 220);  
   height: 100%; backface-visibility: hidden;
   } 
-  .card-front img{
-    width: 100%;
-    height: 100%;
+  .card-front img{    
+    display:block;
+    width: 70%;
+    height: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    margin-bottom: auto;
+  }
+  #head1,#head2{
+    font-size: 150%;
   }
   .card-front {
+    align-items: center;
   transform: rotateY(0deg); }
   .card-back {
     text-align:center;

@@ -15,6 +15,7 @@
 }
 .division{
     display: flex;
+    justify-content: center;
 }
 #cert1 img{
     height:35%;
