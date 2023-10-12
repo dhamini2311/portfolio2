@@ -17,13 +17,13 @@
     height: auto;
     width: auto;
     color: aliceblue;
+    display: flex;
+    justify-content: center;
+    gap: 20%;
 }
 .card {
-
-  width: 300px;
-  
-  height: 200px; perspective: 1000px;}
-  
+  width: 300px;  
+  height: 200px; perspective: 1000px;}  
   .card-inner {
   width: 100%;
   height: 100%;
