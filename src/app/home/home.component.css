@@ -6,8 +6,7 @@
     grid-template-columns: repeat(2 ,1fr);}
 .main2{
     padding-top: 5rem;
-    padding-bottom: 0.5rem;
-    padding-left: 12rem;
+    text-align: center;
     color: aliceblue;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-style:italic;
@@ -36,68 +35,6 @@
 #image img{
     width:15rem;
 }
-/* }
-#hey{
-    padding-top: 5rem;
-    padding-bottom: 0.5rem;
-    padding-left: 12rem;
-    color:aliceblue;
-    font-size: 20px;
-    font-family:'Courier New', Courier, monospace;
-}
-#I,#devep{
-    padding-bottom: 0.5rem;
-    padding-left: 12rem;
-    color:aliceblue;
-    font-size: 40px;
-    font-family:'ABeeZee';
-    font-style: italic;
-    width: 20rem;
-}
-#colour{
-    color:#A6A001;
-    font-size: 40px;
-    font-family:'ABeeZee';
-    font-style: italic;
-}
-#content{
-    
-    padding-bottom: 0.5rem;
-    padding-left: 12rem;
-    color:aliceblue;
-    width: 34rem;
-    font-size: 20px;
-    font-family:'Courier New', Courier, monospace;
-}
-#image{
-    width: 10rem;
-    margin-top: -3rem;
-    padding-bottom: 11.5%;
-}
-#image img{
-    width: 15rem;
-    height: 20rem;
-    padding-left: 52rem;
-    margin-top: -40rem;
-}
-#rect1{
-    width: fit-content;
-    height:20px;
-}
-#rect1 img{
-    padding-left: 65rem;
-    margin-top:-50rem;
-    padding-bottom: 22rem;
-}
- #web{
-    width:fit-content;
-    height:20px;
-}
-#web img{
-    padding-left: 66rem;
-    margin-top:-50rem;
-    padding-bottom: 24rem;  
-}  */
 #hr2{
     border-top: 2px solid rgb(26, 166, 253);
     border-bottom: 2px solid rgb(26, 166, 253);

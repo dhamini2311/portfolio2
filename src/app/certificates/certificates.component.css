@@ -15,24 +15,27 @@
 }
 .division{
     display: flex;
-    justify-content: center;
+}
+.col1{
+    text-align: center;
+}
+.col2{
+    text-align: center;
 }
 #cert1 img{
-    height:35%;
-    width:35%;
-    margin-left: 10rem;
+    height:40%;
+    width:40%;    
 }
 #c1{
     color: aliceblue;
-    margin-left:12rem;
+    
 }
 #cert2 img{
     height:50%;
     width:50%;
 }
 #c2{
-    color: aliceblue;
-    margin-left:5rem;
+    color: aliceblue;    
 }
 #link a{
     width: 20%;
@@ -42,12 +45,28 @@
     align-content: center;
     text-decoration: none;
     color: aliceblue;
-    border-radius: 10px;
+    border-radius: 5px;
     border: 3px solid rgb(55, 225, 220);
     background: #333;
+}
+#link a:hover{
+    animation: button-pulse 0.5s linear infinite;
 }
 #link{
     display: flex;
     justify-content: center;
     align-content: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+@keyframes button-pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
 }
