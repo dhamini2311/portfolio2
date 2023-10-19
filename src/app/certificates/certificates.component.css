@@ -1,7 +1,10 @@
 .main{
-    background-color: #75c8ae;
+    background-color: #6194ba;
     height: auto;
     width: auto;
+}
+body{
+    background-color: #6194ba;
 }
 #head{
     display: flex;
@@ -9,19 +12,19 @@
     align-items: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-style: italic;
-    color: rgb(55, 225, 220);
+    color: #2a4c68;
     font-size: 60px;
-    text-shadow: 5px 5px 10px rgb(30, 96, 171);
+    
 }
 .scroll-container {
-    background-color: #333;
+    background-color: #6194ba;
     overflow: auto;
     white-space: nowrap;
     padding: 10px;
   }
   .scroll-container img {
     padding: 10px;
-  }
+  }  
 /* .division{
     display: flex;
 }
