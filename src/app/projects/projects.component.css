@@ -1,29 +1,31 @@
 .main{
-    background-color: black;
-    height: auto;
     width: auto;
-    color: aliceblue;
+    color: hsl(202, 61%, 34%);
+}
+body{
+  height: auto;
+  background-color: #8ecddd;
 }
 #heading{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-style: italic;
-    color: rgb(55, 225, 220);
+    color: #22668d;
     font-size: 400%;
     text-align: center;
     text-shadow: 5px 5px 10px rgb(30, 96, 171);
 }
 .main2{
-  background-color: black;
-    height: auto;
-    width: auto;
-    color: aliceblue;
+  color: #22668d;
+    width: 100%;
+    height: 100vh;
     display: flex;
     justify-content: center;
     gap: 20%;
 }
 .card {
   width: 350px;  
-  height: 250px; perspective: 1000px;}  
+  height: 250px; 
+  perspective: 1000px;}  
   .card-inner {
     border: 5px solid rgb(35, 230, 230);
     border-radius: 0.5rem;
@@ -37,7 +39,7 @@
   .card-front, .card-back {
   position: absolute; width: 100%;
   /* background-color: blanchedalmond; */
-  color: rgb(55, 225, 220);  
+  color: #22668d;  
   height: 100%; backface-visibility: hidden;
   } 
   .card-front img{    

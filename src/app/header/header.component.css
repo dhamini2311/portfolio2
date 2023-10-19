@@ -1,14 +1,20 @@
 .bg{
-    background-color: #1E1E1E;
+    background-color: #FFFADD;
     backdrop-filter:blur(20px);
     width:100%;
     height:3.5rem;
     line-height: 1rem;
     position: fixed;
-
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+}
+body{
+    scroll-behavior: smooth;
 }
 #ds{
-    color: #FFF;
+    color: #22668D;
 font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 font-size: 35px;
 font-style: normal;
@@ -19,10 +25,10 @@ margin-left:2rem;
 padding-top: 1%;
 }
 #D{
-    color:  rgb(55, 225, 220);
+    color:  #22668D;
 }
 #O{
-    color:  rgb(55, 225, 220); 
+    color:  #22668D; 
 }
 .navbar{
     margin-left: 40rem;
@@ -46,9 +52,10 @@ justify-content: space-between;
 }
 a{
     text-decoration: none;
-    color:#FFF ;
+    color:#22668D ;
 }
+
 a.active{
-    color: rgb(55, 225, 220);
+    color: rgb(55, 225, 220); 
 }
 
