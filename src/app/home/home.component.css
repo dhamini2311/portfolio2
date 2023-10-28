@@ -3,26 +3,27 @@
     grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
     justify-content: center;
     gap: 5%;
-    padding:5% 5% 0 5%;
+    padding:3% 5% 0 5%;
     font-style: normal;
     font-weight: 400;
 }
 body{
         height: auto;
         width: auto;
-        background-color: #6194ba;
+        background-color: #0c707b;
     }
 .main2{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    color: #2a4c68;
+    color: #072e33;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-style:italic;
   
 }
 #hey{
-    padding-bottom: 0.5rem;
+
+    padding-bottom: 0.3rem;
     font-size: 25px;
     /* font-family: 'Edu TAS Beginner', cursive; */
 }
@@ -34,7 +35,7 @@ body{
     /* font-family: 'Dancing Script', cursive; */
 }
 #colour{
-    color:#2a4c68;
+    color:#072e33;
 }
 #content{
     font-size: 25px;
@@ -48,18 +49,18 @@ body{
 #resu{
     font-family: 'Edu TAS Beginner', cursive;
     border-radius: 1re; 
-    background: #adcbe3 ;
+    background: #0f969c ;
     margin-left: 3rem;
 }
 #resu a{
     text-decoration: none;
-    color:#22668D;
+    color:#072e33;
     font-size:20px;
     font-weight: bold;
     text-align: center;
 }
 #resu img{
-    width:10%;
+    width:8%;
     padding-top: 1%;
     place-items: center;
 } 

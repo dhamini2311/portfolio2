@@ -1,12 +1,12 @@
 .main{
-    background-color: #adcbe3;
+    background-color: #0f969c;
     height: auto;
     width: auto;
     display: grid;
     grid-template-columns: repeat(3,1fr);
 }
 .col1{
-    color: #22668d;
+    color: #072e33;
     /* margin-left: 7%; */
     padding-top: 20%;
     text-align: center; 
@@ -23,7 +23,7 @@
 }
 .col2{
     height: auto;
-    color: #22668d;
+    color: #072e33;
     padding-top: 10%;
     font-size: 20px;
     /* padding-left: 2%; */
@@ -40,7 +40,7 @@
     width: 1rem;
 }
 .navbar1{
-    color: #22668d;
+    color: #072e33;
     padding-top: 12%;
     font-size: 20px;
     padding-left: 2%;
@@ -51,7 +51,7 @@
 }
 a{
     text-decoration:none;
-    color: #22668d;
+    color: #072e33;
 }
 #home:hover,#skills:hover,#Certify:hover,#Projects:hover,#contact:hover{
     text-indent: 3%;

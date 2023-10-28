@@ -11,10 +11,10 @@ body{
     /* scroll-behavior: smooth; */
     padding-top: 1%;
     width: auto;
-    background-color:#adcbe3 ;
+    background-color:#0f969c ;
 }
 #ds{
-    color: #22668D;
+    color: #072e33;
     /* font-family: 'IBM Plex Sans', sans-serif;
     font-family: 'Montserrat', sans-serif;
     font-family: 'Playpen Sans', cursive; */
@@ -25,10 +25,10 @@ padding-top: 1%;
 padding-left: 0%;
 }
 #D{
-    color:  #22668D;
+    color:  #072e33;
 }
 #O{
-    color:  #22668D; 
+    color:  #072e33; 
 }
 .navbar{
     display: flex;
@@ -43,10 +43,7 @@ padding-right: 5%;
 }
 a{
     text-decoration: none;
-    color:black ;
+    color:#072e33 ;
 }
 
-a.active{
-    color: #22668D; 
-}
 
