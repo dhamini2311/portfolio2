@@ -15,20 +15,18 @@ body{
 }
 #ds{
     color: #072e33;
-    /* font-family: 'IBM Plex Sans', sans-serif;
-    font-family: 'Montserrat', sans-serif;
-    font-family: 'Playpen Sans', cursive; */
-font-size: 35px;
+    font-family: 'Euphoria Script', cursive;
+font-size: 50px;
 font-style: normal;
 font-weight: 400;
 padding-top: 1%;
 padding-left: 0%;
 }
 #D{
-    color:  #072e33;
+    color:  #145057;
 }
 #O{
-    color:  #072e33; 
+    color:  #145057; 
 }
 .navbar{
     display: flex;

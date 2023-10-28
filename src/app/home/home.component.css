@@ -3,7 +3,7 @@
     grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
     justify-content: center;
     gap: 5%;
-    padding:3% 5% 0 5%;
+    padding:5% 5% 0 5%;
     font-style: normal;
     font-weight: 400;
 }
@@ -22,8 +22,7 @@ body{
   
 }
 #hey{
-
-    padding-bottom: 0.3rem;
+    padding-bottom: 0.5rem;
     font-size: 25px;
     /* font-family: 'Edu TAS Beginner', cursive; */
 }
@@ -60,7 +59,7 @@ body{
     text-align: center;
 }
 #resu img{
-    width:8%;
+    width:7%;
     padding-top: 1%;
     place-items: center;
 } 
