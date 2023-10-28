@@ -9,39 +9,32 @@
 }
 body{
     /* scroll-behavior: smooth; */
-    padding-top: 1%;
     width: auto;
-    background-color:#0f969c ;
+    height: auto;
+    background-color:#1E1E1E ;
 }
 #ds{
-    color: #072e33;
+    color: #25a5cc;
     font-family: 'Euphoria Script', cursive;
 font-size: 50px;
-font-style: normal;
-font-weight: 400;
-padding-top: 1%;
-padding-left: 0%;
+
 }
 #D{
-    color:  #145057;
+    color:  #25a5cc;
 }
 #O{
-    color:  #145057; 
+    color:  #25a5cc; 
 }
 .navbar{
     display: flex;
     gap: 5%;    
 font-size: 20px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-padding-top: 0.2rem;
-justify-content: space-between;
-padding-right: 5%;
+align-items: center;
+justify-content: center;
 }
 a{
     text-decoration: none;
-    color:#072e33 ;
+    color:#25a5cc ;
 }
 
 
