@@ -9,11 +9,11 @@ body{
     padding:5% 5% 0 5%;
         height: auto;
         width: auto;
-        background-color: #0c707b;
+        background-color: #101113;
     }
 .main2{
     justify-content: center;
-    color: white;
+    color: #37E1DC;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-style:italic;  
 }
@@ -24,11 +24,12 @@ body{
 #I,#devep{
     font-size: 250%;
     padding-bottom: 0.5rem; 
-    font-style: italic;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Euphoria Script', cursive;
+    font-weight: bold ;
 }
 #colour{
-    color:white;
+    color:#37E1DC;
+    font-family: 'Euphoria Script', cursive;
 }
 #content{
     font-size: 150%;
@@ -48,13 +49,14 @@ body{
     gap: 5%;
     font-family: 'Edu TAS Beginner', cursive;
     border-radius: 0.5rem; 
-    background: #0f969c ;
+    background: #1E1E1E ;
    align-items: center;
    justify-content: center;
+   border-color:#37E1DC;
 }
 #resu a{
     text-decoration: none;
-    color:white;
+    color:#37E1DC;
     font-size:20px;
     font-weight: bold;
 }

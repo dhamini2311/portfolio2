@@ -1,6 +1,6 @@
 body{
     padding-top: 2%;
-    background-color: #0c707b;
+    background-color: #101113;
      width: auto; 
      height: auto; 
 }
@@ -10,12 +10,12 @@ body{
     grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
 }
 #skills{
-    color: #072e33;
+    color: #37E1DC;
     padding-left: 14%;
     text-align: left;
     font-size: 500%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-style: italic;
+    font-family: 'Euphoria Script', cursive;
+    font-weight:bolder;
 }
 .col1{
     display: flex;
@@ -23,7 +23,8 @@ body{
     gap: 20%;
 }
 #frontend,#backend,#database,#others{
-    background-color: #0f969c;
+    background-color: #1E1E1E;
+    color:#37E1DC;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -33,6 +34,9 @@ body{
     border-radius: 5px;
     font-size: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif; 
+    font-style: oblique;
+    font-weight: bold;
+    text-decoration:underline;
     /* box-shadow: 1px 1px 2px 2px rgb(17, 153, 149); */
 }
  img{
@@ -42,6 +46,6 @@ body{
     margin-top: 10px;
 }
 #frontend:hover,#backend:hover,#database:hover,#others:hover{
-    box-shadow: 0 0 10px  rgb(8, 8, 8);
+    box-shadow: 0 0 10px  rgb(71, 144, 190);
 }
 

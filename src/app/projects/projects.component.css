@@ -1,13 +1,13 @@
 body{
   height: auto;
   width: auto;
-  background-color: #0c707b;
+  background-color: #101113;
   padding-top: 2%;
 }
 #heading{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-style: italic;
-    color: #072e33;
+  font-family: 'Euphoria Script', cursive;
+  font-weight: bolder;
+    color: #37E1DC;
     font-size: 400%;
     text-align: center;}
 .main2{  
@@ -22,7 +22,7 @@ body{
   height: 70%; 
   }  
   .card-inner {
-    border: 5px solid #0f969c;
+    border: 5px solid #37E1DC;
     border-radius: 0.5rem;
     box-shadow: 0 0 5px rgb(1, 7, 7);
   width: 100%;
@@ -48,7 +48,7 @@ body{
     justify-content: center;
   transform: rotateY(0deg); }
   .card-back {
-    color: #072e33;
+    color: #37E1DC;
     text-align:center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-style: italic;

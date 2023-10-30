@@ -8,14 +8,14 @@
     font-style: italic;
 }
 body{
-    background-color: #0f969c;
+    background-color: #1E1E1E;
     height: auto;
     width: auto;
     padding-top: 2%;
     padding-bottom: 2%;
 }
 #lets{
-    color: #072e33;
+    color: #37E1DC;
     /* margin-left: 7%; */
     text-align: center;
     font-size: 45px;
@@ -23,7 +23,7 @@ body{
 }
 .col2{
     height: auto;
-    color: #072e33;
+    color: #37E1DC;
     font-size: 20px;
     /* padding-left: 2%; */
     display: flex;
@@ -37,6 +37,6 @@ body{
     width: 1rem;
 }
 .col3{
-    color: #072e33;
+    color: #37E1DC;
     font-size: 20px;
 }
