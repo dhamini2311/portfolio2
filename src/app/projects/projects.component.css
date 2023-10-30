@@ -9,7 +9,9 @@ body{
   font-weight: bolder;
     color: #37E1DC;
     font-size: 400%;
-    text-align: center;}
+    text-align: center;
+    text-shadow: 0 0 10px  rgb(64, 123, 159);
+  }
 .main2{  
     width: 100%;
     height: 50vh;
@@ -24,7 +26,7 @@ body{
   .card-inner {
     border: 5px solid #37E1DC;
     border-radius: 0.5rem;
-    box-shadow: 0 0 5px rgb(1, 7, 7);
+    box-shadow: 0 0 10px  rgb(71, 144, 190);
   width: 100%;
   height: 100%;
   position: relative; transform-style: preserve-3d; transition: transform 0.999s;}
@@ -40,6 +42,7 @@ body{
     width: 90%;
     height: 90%;}
   #head1,#head2{
+    text-align: center;
     font-size: 150%;
   }
   .card-front {

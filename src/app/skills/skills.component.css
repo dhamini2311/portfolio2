@@ -16,6 +16,8 @@ body{
     font-size: 500%;
     font-family: 'Euphoria Script', cursive;
     font-weight:bolder;
+    text-shadow: 0 0 10px  rgb(64, 123, 159);
+
 }
 .col1{
     display: flex;

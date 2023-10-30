@@ -19,6 +19,8 @@ body{
     /* margin-left: 7%; */
     text-align: center;
     font-size: 45px;
+    font-family: 'Euphoria Script', cursive;
+    font-weight: bolder;
     /* text-shadow: 5px 5px 10px rgb(30, 96, 171); */
 }
 .col2{
@@ -35,8 +37,12 @@ body{
 .phno img,.email img,.LinkedIn img,.insta img,.github img{
     height: 1rem;
     width: 1rem;
+    
 }
 .col3{
     color: #37E1DC;
     font-size: 20px;
 }
+a{
+    text-decoration: none;
+    color:#37E1DC;}
