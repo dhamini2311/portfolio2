@@ -29,10 +29,10 @@ body{
     
 }
 #colour{
-    color:#37E1DC;
+    color:#bf93f3;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-style:italic;
-    text-shadow: 0 0 10px  rgb(64, 123, 159);  
+    text-shadow: 0 0 10px  #aa64fb;  
 }
 #content{
     font-size: 160%;
@@ -55,7 +55,8 @@ body{
     background: #1E1E1E ;
    align-items: center;
    justify-content: center;
-   border-color:#37E1DC;
+   border-color:#bf93f3;
+   box-shadow: 0 0 7px#bf93f3;
 }
 #resu a{
     text-decoration: none;

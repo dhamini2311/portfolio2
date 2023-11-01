@@ -10,13 +10,13 @@ body{
     grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
 }
 #skills{
-    color: #37E1DC;
+    color: #bf93f3;
     padding-left: 14%;
     text-align: left;
     font-size: 500%;
     font-family: 'Euphoria Script', cursive;
     font-weight:bolder;
-    text-shadow: 0 0 10px  rgb(64, 123, 159);
+    text-shadow: 0 0 10px  #aa64fb;
 
 }
 .col1{
