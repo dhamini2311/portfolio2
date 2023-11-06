@@ -13,10 +13,10 @@ const routes: Routes = [
     component: AppComponent,
     children: [
       { path: 'home', component: HomeComponent },
-      {path:'skills',component:SkillsComponent},
-      {path:'certificates',component:CertificatesComponent},
-      {path:'projects',component:ProjectsComponent},
-      {path:'contacts',component:ContactsComponent},
+      // {path:'skills',component:SkillsComponent},
+      // {path:'certificates',component:CertificatesComponent},
+      // {path:'projects',component:ProjectsComponent},
+      // {path:'contacts',component:ContactsComponent},
       { path: '**', redirectTo: 'home' },]
   }
 ];

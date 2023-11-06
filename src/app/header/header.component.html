@@ -2,15 +2,16 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Edu+TAS+Beginner:wght@500&family=Euphoria+Script&family=IBM+Plex+Sans:ital,wght@1,500&family=Libre+Baskerville&family=Montserrat:ital,wght@1,200&family=Playpen+Sans:wght@500&family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
-    </head>
+    </head> 
     <body>
     <div class="bg">
         <p id="ds"><span id="D">D's</span> F<span id="O">o</span>lio.</p>
             <div class="navbar">
-            <a id="home"><a routerLink="/home" routerLinkActive="active">Home</a></a>
-            <a id="skills"><a routerLink="/skills" routerLinkActive="active">Skills</a></a>
-            <a id="Certify"><a routerLink="/certificates" routerLinkActive="active">Certifications</a></a>
-            <a id="Projects"><a routerLink="/projects" routerLinkActive="active">Projects</a></a>
-            <a id="contact"><a routerLink="/contacts" routerLinkActive="active">Contacts</a></a></div>
+                <a id="home" (click)="scrollToSection('home')">Home</a>
+                <a  id="skills" (click)="scrollToSection('skills')">Skills</a>
+                <a id="Certify" (click)="scrollToSection('certification')">Certifications</a>
+                <a id="Projects" (click)="scrollToSection('projects')">Projects</a>
+                <a id="contact" (click)="scrollToSection('contacts')">Contacts</a>
+            </div>
         </div>
     </body>

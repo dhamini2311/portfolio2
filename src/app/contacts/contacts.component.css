@@ -18,7 +18,7 @@ body{
     color: #bf93f3;
     /* margin-left: 7%; */
     text-align: center;
-    font-size: 45px;
+    font-size: 300%;
     font-family: 'Euphoria Script', cursive;
     font-weight: bolder;
     /* text-shadow: 5px 5px 10px rgb(30, 96, 171); */
@@ -26,7 +26,7 @@ body{
 .col2{
     height: auto;
     color: #37E1DC;
-    font-size: 20px;
+    font-size: 130%;
     /* padding-left: 2%; */
     display: flex;
     flex-direction: column;
@@ -41,8 +41,81 @@ body{
 }
 .col3{
     color: #37E1DC;
-    font-size: 20px;
+    font-size: 130%;
 }
 a{
     text-decoration: none;
     color:#37E1DC;}
+    @media only screen and (max-width: 710px){
+        #lets{
+            font-size: 250%;
+        }
+        .col2{
+            font-size: 140%;
+        }
+        .col3{
+            font-size: 140%;
+        }
+    }
+    @media only screen and (max-width: 650px){
+        #lets{
+            font-size: 230%;
+        }
+        .col2{
+            font-size: 120%;
+        }
+        .col3{
+            font-size: 120%;
+        }
+        
+    }
+    @media only screen and (max-width: 610px){
+        #lets{
+            font-size:200% ;
+        }
+        .col2{
+            font-size: 100%;
+        }
+        .col3{
+            font-size: 100%;
+        }
+    }
+    @media only screen and (max-width: 480px){
+       .main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        place-items: center;
+       } 
+       #lets{
+        padding-top: 2%;
+            font-size: 130%;
+            margin-bottom: 2%;
+        }
+        .col2{
+            text-align: center;
+            font-size: 80%;
+        }
+        .col3{
+            text-align: center;
+            font-size: 80%;
+            padding-bottom: 2%;
+        }
+    } 
+    @media only screen and (max-width: 320px){
+        #lets{
+            padding-top: 2%;
+            font-size: 150%;
+            margin-bottom: 2%;
+        }
+        .col2{
+            text-align: center;
+            font-size:90% ;
+        }
+        .col3{
+            text-align: center;
+            font-size: 90%;
+            padding-bottom: 2%;
+        }
+    }
