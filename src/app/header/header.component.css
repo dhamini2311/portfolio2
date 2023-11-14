@@ -56,7 +56,14 @@ a:hover{
         display: none;
     }
     .bg{
+        display: flex;
+        justify-content: center;
        place-content: center;
+       text-align: center;
+       align-items: center;
+    }
+    #ds{
+        text-align: center;
     }
 }
 

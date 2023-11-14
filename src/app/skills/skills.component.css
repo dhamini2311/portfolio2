@@ -64,6 +64,7 @@ body{
         justify-content: center;
     }
     #Skills{
+        padding-left: 0;
         text-align: center;
     }
     .divisions{
@@ -85,13 +86,23 @@ body{
     #database{
         margin-bottom: 12%;
     }
+    #frontend,#backend,#database,#others{
+        margin-left: 0;
+    }
 }
-@media only screen and (max-width: 470px){
+
+@media only screen and (max-width: 490px){
     #Skills{
         font-size: 300%;
     }
     #frontend,#backend,#database,#others{
+        
         width: 200px;
         font-size: 90%;
+    }
+}
+@media only screen and (max-width: 330px){
+    .divisions{
+        align-items: center;
     }
 }
